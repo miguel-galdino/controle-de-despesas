@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Controle de despesas</title>
+  </head>
+  <body>
+    <h2>Controle de despesas</h2>
+
+    <div class="container">
+      
+      
+        <h4>Saldo atual</h4>
+        
+   
+      <div class="main-row">
+      <h1 id="balance" class="balance">R$ 0.00</h1>
+      <a href="#new-transaction" class="new-transaction myBtn">Nova Transação</a>
+      </div>
+
+      <div class="inc-exp-container">
+        <div>
+          <h4>Receitas</h4>
+          <p id="money-plus" class="money plus">+ R$0.00</p>
+        </div>
+
+        <div>
+          <h4>Despesas</h4>
+          <p id="money-minus" class="money minus">- R$0.00</p>
+        </div>
+      </div>
+
+      <div class="transactions-row">
+        <h3>Transações</h3>
+        <a id="organize-btn" class="organize-btn myBtn" onclick="changeOrder()">Mais Recentes</a>
+      </div> 
+      
+      <ul id="transactions" class="transactions"></ul>
+      
+      <section id="new-transaction"></section>
+      <!-- <div class="transactions-row"> -->
+      <h3 class="add-transaction">Adicionar transação</h3>
+      <!-- </div> -->
+      
+      <form id="form">
+        <div class="form-control">
+          <label for="text">Nome <br>
+            <small>(ex. Padaria)</small>
+          </label>
+          <input autofocus type="text" id="text" placeholder="Nome da transação"/>
+        </div>
+
+        <div class="form-control">
+          <label for="amount">Valor <br>
+            <small>(negativo - despesas, positivo - receitas)</small>
+          </label>
+          <input type="number" onchange="setTwoNumberDecimal()" min="-500000" max="1000000" step="0.01" value="0.00" id="amount" placeholder="Valor da transação" />
+        </div>
+
+        <div class="form-control">
+          <label for="amount">Data <br>
+            <small>(ex. 25/06 ou 25/06/2021)</small>
+          </label>
+          <input type="text" id="date" placeholder="Data da transação" />
+        </div>
+
+        <button class="btn">Adicionar</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
