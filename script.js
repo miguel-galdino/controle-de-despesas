@@ -14,6 +14,8 @@ const setTwoNumberDecimal = event=> {
 const inputTransactionDate = document.querySelector('#date')
 const changeOrderButton = document.querySelector('#organize-btn')
 
+const firstCheck = document.querySelector('#receita')
+const secondCheck = document.querySelector('#despesa')
 
 
 const localStorageTransactions = JSON.parse(localStorage
@@ -34,16 +36,17 @@ const removeTransaction = ID =>{
 
 const addTransactionIntoDOM = ({amount, name, id, date}) => {
        
-       const operator = amount < 0 ? '-' : '+'
-       const CSSClass = amount < 0 ? 'minus' : 'plus'
+       let operator = amount < 0 ? '-' : '+'
+       let CSSClass =  amount < 0 ? 'minus' : 'plus'
+
        const amountWithoutOperator = Math.abs(amount)
+
        const li = document.createElement('li')
 
- 
 
        li.classList.add(CSSClass)
        li.innerHTML = `
-       ${name} - ${date}
+       ${name} | ${date}
        <span>${operator} R$ ${amountWithoutOperator}</span>
        <button class="delete-btn" onClick="removeTransaction(${id})">
        x</button>
@@ -56,6 +59,7 @@ const addTransactionIntoDOM = ({amount, name, id, date}) => {
        }
 
 }
+
 
 const changeOrder = () => {
 
@@ -116,6 +120,10 @@ const init = () =>{
 
 	transactions.forEach(addTransactionIntoDOM)
 	updateBalanceValues()
+
+/*	firstCheck.checked = false
+	secondCheck.checked = false*/
+
 }
 
 init()
@@ -142,18 +150,23 @@ const clearInputs = () =>{
    inputTransactionName.value = ''
    inputTransactionAmount.value = ''
    inputTransactionDate.value = ''
+
 }
 
 const handleFormSubmit = event =>{
    event.preventDefault()
 
    const transactionName = inputTransactionName.value.trim()
-   const transactionAmount = inputTransactionAmount.value.trim()
+   let transactionAmount = ''  
+   if (secondCheck.checked == true){
+   	transactionAmount = -(inputTransactionAmount.value.trim())
+   }else{
+     transactionAmount = inputTransactionAmount.value.trim()
+   }
    const transactionDate = inputTransactionDate.value.trim()
-   const isSomeInputEmpty = transactionName === '' || transactionAmount === '' || transactionDate === ''
-
+   const isSomeInputEmpty = transactionName === '' || transactionAmount === '' 
    if (isSomeInputEmpty){
-   	 alert("Por favor, preencha todos os campos")
+   	 alert("Por favor, preencha pelo menos os campos de Nome e Valor")
    	 return
    }
 
@@ -167,6 +180,28 @@ const handleFormSubmit = event =>{
 }
 
 form.addEventListener('submit', handleFormSubmit);
+
+
+
+firstCheck.addEventListener('click', ()=>{
+	if (secondCheck.checked == true){
+		secondCheck.checked = false
+		firstCheck.checked = true
+	}else{
+		firstCheck.checked = true
+	}
+})
+
+secondCheck.addEventListener('click', ()=>{
+	if (firstCheck.checked == true){
+		firstCheck.checked = false
+		secondCheck.checked = true
+	}else{
+		secondCheck.checked = true
+	}
+})
+
+
 
 
 

@@ -79,10 +79,7 @@ h4 {
   color: #c0392b;
 }
 
-.main-row{
-  display: flex;
-  align-items: center;
-}
+
 
 .myBtn{
   width: 5rem;
@@ -97,8 +94,15 @@ h4 {
   cursor: pointer;
 }
 
+.main-row{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 .new-transaction{
-  margin: 0 .1rem 0 9rem;
+ position: absolute;
+ right: 1rem;
 }
 
 label {
@@ -138,11 +142,18 @@ input[type='number'] {
   border-bottom: 1px solid #bbb;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .organize-btn{
-   margin: 0 .1rem 0 10rem;
+   position: absolute;
+   right: 1rem;
 }
+
+.transactions-column{
+  /*justify-content: center;*/
+}
+
 
 .transactions {
   list-style-type: none;
@@ -159,6 +170,7 @@ input[type='number'] {
   position: relative;
   padding: 10px;
   margin: 10px 0;
+
 }
 
 .transactions li.plus {
@@ -195,3 +207,31 @@ input[type='number'] {
 
 
 
+
+@media (max-width: 550px){
+
+   .transactions li{
+       margin: 10px 0 10px 0.5rem;
+       max-width: 95%;
+   }
+
+   #form {
+    max-width: 95%;
+    /*margin: ;*/
+    margin-left: .5rem;
+
+   }
+
+}
+
+@media (max-width: 375px){
+
+  .transactions li{
+       margin: 10px 0 10px 1rem;
+       max-width: 90%;
+   }
+
+  h1, h3, h4{
+   margin-left: .1rem;
+  }
+}
