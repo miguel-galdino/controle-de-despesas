@@ -6,17 +6,21 @@ Os dados das transações feitas ficam guardados no armazenamento local e resist
 
 Atualmente mais de 10 pessoas usam o App e todos notaram uma melhora significativa em suas finança pessoais, sinta-se mais que a vontade para implementar este site no seu dia a dia 😉 
 
-Acesse em: https://miguel-galdino.github.io/controle-de-despesas/
+<a href="https://miguel-galdino.github.io/controle-de-despesas/" target="_blank">
+Clique aqui para acessar
+</a>
 
 # Vamos ao site!
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85406655/128734358-eb42fa59-3811-4794-b329-d221a19b37e7.png">
 
-![Screenshot_2](https://user-images.githubusercontent.com/85406655/128734358-eb42fa59-3811-4794-b329-d221a19b37e7.png)
-
-![Screenshot_4](https://user-images.githubusercontent.com/85406655/128734745-26a30e8d-918a-4e48-801a-846242e8b42e.png)
+<img src="https://user-images.githubusercontent.com/85406655/128734745-26a30e8d-918a-4e48-801a-846242e8b42e.png">
+</div>
 
 # Saldo
-
+<div align="center">
 ![Screenshot_5](https://user-images.githubusercontent.com/85406655/128737117-0ea2b245-f6f1-46ac-b020-c05bb713e304.png)
+</div>
 
 Nesta parte você tem acesso ao seu saldo total (total de receitas - total de despesas). Saldo, receitas e despesas são atualizadas assim que uma transação nova é adicionada.
 
@@ -24,21 +28,24 @@ Nesta parte você tem acesso ao seu saldo total (total de receitas - total de de
 
 <div align="center" >
 <img src="https://user-images.githubusercontent.com/85406655/128737828-c3643aa3-08aa-4925-8b11-b4b487f5e9f0.png">
-<img src="!https://user-images.githubusercontent.com/85406655/128738271-099c66fa-6512-47eb-b87e-6404f106f66a.png">
+<img src="https://user-images.githubusercontent.com/85406655/128738271-099c66fa-6512-47eb-b87e-6404f106f66a.png">
 </div>
 
 Aqui é onde fica nossa lista de transações, as mesmas podem ser organizadas em mais recentes ou mais antigas com um simples clique
 
 Você também pode excluir facilmente uma transação ao clicar na transação que deseja remover e apertar no botão que aparece, ex:
-
+<div align="center">
 ![Screenshot_12](https://user-images.githubusercontent.com/85406655/128741182-18e39b7c-2445-4d2c-bca6-ba469ad0f9df.png)
+</div>
 
 
 # Adicionar Transação
 
-![Screenshot_9](https://user-images.githubusercontent.com/85406655/128740285-a48addf2-9285-43fa-851d-34b4986ad8f2.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85406655/128740285-a48addf2-9285-43fa-851d-34b4986ad8f2.png">
 
-![Screenshot_11](https://user-images.githubusercontent.com/85406655/128740792-bda72acb-eaac-4f95-b20d-570a030fc8bd.png)
+<img src="https://user-images.githubusercontent.com/85406655/128740792-bda72acb-eaac-4f95-b20d-570a030fc8bd.png">
+</div>
 
 
 
@@ -52,7 +59,9 @@ Caso, por algum motivo, você deseje remover todas as transações, você pode c
 
 Entrar no modo de desenvolvedor (Ctrl+Shift+I) -> Selecionar "Aplicações" -> Em armazenamento selecionar "Armazenamento local" -> Clicar no URL do site -> Botão direito -> Deletar
 
-![Screenshot_13](https://user-images.githubusercontent.com/85406655/128742139-9519c71b-4fd0-48f6-a2c2-f890b0e08fc3.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85406655/128742139-9519c71b-4fd0-48f6-a2c2-f890b0e08fc3.png">
+</div>
 
 Para Firefox o processo é o mesmo.
 
