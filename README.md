@@ -23,8 +23,8 @@ Nesta parte você tem acesso ao seu saldo total (total de receitas - total de de
 # Transações
 
 <div align="center" >
-![Screenshot_6](https://user-images.githubusercontent.com/85406655/128737828-c3643aa3-08aa-4925-8b11-b4b487f5e9f0.png)
-![Screenshot_7](https://user-images.githubusercontent.com/85406655/128738271-099c66fa-6512-47eb-b87e-6404f106f66a.png)
+<img src="https://user-images.githubusercontent.com/85406655/128737828-c3643aa3-08aa-4925-8b11-b4b487f5e9f0.png">
+<img src="!https://user-images.githubusercontent.com/85406655/128738271-099c66fa-6512-47eb-b87e-6404f106f66a.png">
 </div>
 
 Aqui é onde fica nossa lista de transações, as mesmas podem ser organizadas em mais recentes ou mais antigas com um simples clique
