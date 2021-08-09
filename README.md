@@ -10,50 +10,50 @@ Atualmente mais de 10 pessoas usam o App e todos notaram uma melhora significati
 Clique aqui para acessar
 </a>
 
-# Vamos ao site!
+# <p align="center"> Vamos ao site! </p>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/85406655/128734358-eb42fa59-3811-4794-b329-d221a19b37e7.png">
+<br>
 
 <img src="https://user-images.githubusercontent.com/85406655/128734745-26a30e8d-918a-4e48-801a-846242e8b42e.png">
 </div>
 
-# Saldo
+
+# <p align="center"> Saldo </p>
 <div align="center">
-![Screenshot_5](https://user-images.githubusercontent.com/85406655/128737117-0ea2b245-f6f1-46ac-b020-c05bb713e304.png)
+<img src="https://user-images.githubusercontent.com/85406655/128737117-0ea2b245-f6f1-46ac-b020-c05bb713e304.png">
+<br><br>
+Nesta parte você tem acesso ao seu saldo total (total de receitas - total de despesas). Saldo, receitas e despesas são atualizadas assim que uma transação nova é adicionada.
 </div>
 
-Nesta parte você tem acesso ao seu saldo total (total de receitas - total de despesas). Saldo, receitas e despesas são atualizadas assim que uma transação nova é adicionada.
-
-# Transações
+# <p align="center"> Transações </p>
 
 <div align="center" >
 <img src="https://user-images.githubusercontent.com/85406655/128737828-c3643aa3-08aa-4925-8b11-b4b487f5e9f0.png">
 <img src="https://user-images.githubusercontent.com/85406655/128738271-099c66fa-6512-47eb-b87e-6404f106f66a.png">
-</div>
+<br><br>
 
 Aqui é onde fica nossa lista de transações, as mesmas podem ser organizadas em mais recentes ou mais antigas com um simples clique
-
 Você também pode excluir facilmente uma transação ao clicar na transação que deseja remover e apertar no botão que aparece, ex:
-<div align="center">
-![Screenshot_12](https://user-images.githubusercontent.com/85406655/128741182-18e39b7c-2445-4d2c-bca6-ba469ad0f9df.png)
+<br><br>
+
+<img src="https://user-images.githubusercontent.com/85406655/128741182-18e39b7c-2445-4d2c-bca6-ba469ad0f9df.png">
 </div>
 
 
-# Adicionar Transação
+# <p align="center"> Adicionar Transação </p>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/85406655/128740285-a48addf2-9285-43fa-851d-34b4986ad8f2.png">
-
+<br><br>
 <img src="https://user-images.githubusercontent.com/85406655/128740792-bda72acb-eaac-4f95-b20d-570a030fc8bd.png">
+<br><br>
+Seção onde você vai adicionar suas transações, a data da transação é opcional e serve apenas para ter um melhor controle da cronologia das transações
+<br><br>
+Para adicionar uma nova transação basta digitar um nome e um valor, selecione se é uma receita ou uma despesa, dependendo da caixa que estiver marcada quando o botão for pressionado, o valor será adicionado como positivo ou negativo
 </div>
 
-
-
-Seção onde você vai adicionar suas transações, a data da transação é opcional e serve apenas para ter um melhor controle da cronologia das transações
-
-Para adicionar uma nova transação basta digitar um nome e um valor, selecione se é uma receita ou uma despesa, dependendo da caixa que estiver marcada quando o botão for pressionado, o valor será adicionado como positivo ou negativo
-
-# Excluindo todos os dados
+# <p align="center"> Excluindo todos os dados </p>
 
 Caso, por algum motivo, você deseje remover todas as transações, você pode clicar em uma de cada vez e excluir assim como mostrado anteriormente ou para excluir de um jeito mais prático você pode 
 
@@ -63,10 +63,13 @@ Entrar no modo de desenvolvedor (Ctrl+Shift+I) -> Selecionar "Aplicações" -> E
 <img src="https://user-images.githubusercontent.com/85406655/128742139-9519c71b-4fd0-48f6-a2c2-f890b0e08fc3.png">
 </div>
 
+<div align="center">
+<br>
 Para Firefox o processo é o mesmo.
+<br><br>
+</div>
 
-
-# FIM!
+# <p align="center"> Fim! </p>
 
 
 
