@@ -51,24 +51,24 @@
           <label for="text">Nome <br>
             <small>(ex. Padaria)</small>
           </label>
-          <input autofocus type="text" id="text" placeholder="Nome da transação"/>
+          <input autofocus type="text" id="text" placeholder="Nome da transação" autocomplete="off" />
         </div>
 
         <div class="form-control">
           <label for="amount">Valor
             <br>
-            <input type="checkbox" id="receita" class="check-btn" ><span>Receita /</span>
-            <input type="checkbox" id="despesa" class="check-btn" checked><span>Despesa</span>
+            <input type="checkbox" id="receita" class="check-btn" autocomplete="off"><span>Receita /</span>
+            <input type="checkbox" id="despesa" class="check-btn" autocomplete="off" checked ><span>Despesa</span>
           </label>
           <span id="notvalid"> </span>
-          <input type="number" onchange="setTwoNumberDecimal()" min="-500000" max="1000000" step="0.01" value="" id="amount" placeholder="Valor da transação" />
+          <input type="number" onchange="setTwoNumberDecimal()" min="-500000" max="1000000" step="0.01" value="" id="amount" placeholder="Valor da transação" autocomplete="off" />
         </div>
 
         <div class="form-control">
           <label for="text">Data <br>
             <small>(ex. 25/06 ou 25/06/2021)</small>
           </label>
-          <input type="text" id="date" placeholder="Data da transação" />
+          <input type="text" id="date" placeholder="Data da transação" autocomplete="off"/>
         </div>
 
         <button class="btn">Adicionar</button>
