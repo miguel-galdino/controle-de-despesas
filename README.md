@@ -2,7 +2,7 @@
 
 Inspirado em alguns amigos que antes do dia 5 já tinham gastado todo o dinheiro do mês, resolvi fazer esse WebApp de monitoramento de despesas com JavaScript puro
 
-Os dados das transações feitas ficam guardados no armazenamento local e resistem a recarregamento de página e limpeza de cache
+Os dados das transações feitas ficam guardados no armazenamento local do navegador
 
 Atualmente mais de 10 pessoas usam o App e todos notaram uma melhora significativa em suas finança pessoais, sinta-se mais que a vontade para implementar este site no seu dia a dia 😉 
 
